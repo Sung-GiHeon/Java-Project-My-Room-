@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane prefHeight="736.0" prefWidth="414.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.choice.ChoiceController">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="414.0" style="-fx-background-color: white;">
+         <top>
+            <BorderPane prefHeight="40.0" prefWidth="414.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <left>
+                  <Button fx:id="btnBack" mnemonicParsing="false" text="이전" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="10.0" />
+                     </BorderPane.margin></Button>
+               </left>
+            </BorderPane>
+         </top>
+         <bottom>
+            <Button fx:id="btnChatting" mnemonicParsing="false" prefHeight="40.0" prefWidth="414.0" text="실시간 채팅 상담" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <BorderPane fx:id="borderPane" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <AnchorPane maxHeight="200.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Separator layoutX="2.0" layoutY="231.0" prefWidth="414.0" />
+                        <Separator layoutX="3.0" layoutY="66.0" prefWidth="414.0" />
+                        <Label fx:id="lbName" alignment="CENTER" layoutX="139.0" layoutY="7.0" prefHeight="15.0" prefWidth="123.0" text="Label" />
+                        <Label fx:id="lbPrice" alignment="TOP_LEFT" layoutX="209.0" layoutY="25.0" prefHeight="21.0" prefWidth="143.0" text="Label" textFill="#eb1212">
+                           <font>
+                              <Font size="17.0" />
+                           </font></Label>
+                        <Label fx:id="lbExplanation" alignment="CENTER" layoutX="67.0" layoutY="46.0" prefHeight="15.0" prefWidth="282.0" text="Label" />
+                        <Separator layoutX="2.0" layoutY="2.0" prefWidth="414.0" />
+                        <Label fx:id="lbCharter" alignment="TOP_RIGHT" layoutX="108.0" layoutY="25.0" prefHeight="21.0" prefWidth="75.0" text="Label" textFill="#eb1212">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="191.0" layoutY="25.0" prefHeight="21.0" prefWidth="10.0" text="/" textFill="#eb1212">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="144.0" layoutY="125.0" text="평수" />
+                        <Label fx:id="lbWidth" layoutX="208.0" layoutY="124.0" text="Label" />
+                        <Label layoutX="144.0" layoutY="88.0" text="가격" />
+                        <Label layoutX="144.0" layoutY="165.0" text="층수" />
+                        <Label fx:id="lblPrice" layoutX="208.0" layoutY="87.0" text="Label" />
+                        <Label fx:id="lbFloor" layoutX="208.0" layoutY="164.0" text="Label" />
+                        <Label fx:id="lbOption1" layoutX="208.0" layoutY="200.0" text="Label" />
+                        <Label layoutX="144.0" layoutY="200.0" text="옵션" />
+                        <Label fx:id="lbOption2" layoutX="269.0" layoutY="200.0" text="Label" />
+                     </children>
+                  </AnchorPane>
+               </center>
+               <top>
+                  <ImageView fx:id="mainImg" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+               </top>
+               <bottom>
+                  <BorderPane fx:id="addrPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <top>
+                        <Label text="위치정보" BorderPane.alignment="CENTER" />
+                     </top>
+                     <center>
+                        <ImageView fx:id="locateImg" fitHeight="150.0" fitWidth="414.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../포트폴리오%20참고/집사진/APT/캡처.PNG" />
+                           </image></ImageView>
+                     </center>
+                     <bottom>
+                        <Label fx:id="lbAddr" text="주소" BorderPane.alignment="CENTER">
+                         
+                        </Label>
+                     </bottom>
+                  </BorderPane>
+               </bottom>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

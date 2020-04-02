@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="project.login.Root_Controller">
+   <center>
+      <TextArea fx:id="txtDisplay" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="2.0" />
+         </BorderPane.margin>
+      </TextArea>
+   </center>
+   <bottom>
+      <BorderPane BorderPane.alignment="CENTER">
+         <center>
+            <BorderPane BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <BorderPane BorderPane.alignment="CENTER">
+               <center>
+                  <TextField fx:id="txtInput" prefHeight="30.0" promptText="CHAT" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+               <right>
+                  <Button fx:id="btnSend" mnemonicParsing="false" prefHeight="30.0" text="send" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </BorderPane.margin>
+                  </Button>
+               </right>
+            </BorderPane>
+         </bottom>
+      </BorderPane>
+   </bottom>
+</BorderPane>

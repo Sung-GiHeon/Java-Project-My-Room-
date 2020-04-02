@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="736.0" prefWidth="414.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="project.houselist.HouseListController">
+	<top>
+      <BorderPane prefHeight="20.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+         <center>
+            <Label text="주택" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin></Label>
+         </center>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </BorderPane>
+   </top>
+   <center>
+      <StackPane fx:id="listStackPane" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      </StackPane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="32.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnHome" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="414.0" text="홈 화면" />
+            <Button fx:id="btnSearch" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="414.0" text="조건 검색" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

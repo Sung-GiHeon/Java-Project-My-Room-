@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="736.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.start.StartController">
+   <children>
+      <AnchorPane prefHeight="736.0" prefWidth="414.0">
+         <children>
+            <ImageView fitHeight="293.0" fitWidth="414.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../projet.img/images%20(6).jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnStart" layoutX="3.0" layoutY="293.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="414.0" style="-fx-background-color: white;" text="내방 찾기" textFill="#f56d0c">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../projet.img/12.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font size="36.0" />
+               </font></Button>
+            <ImageView fitHeight="736.0" fitWidth="414.0" layoutX="3.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../projet.img/images%20(6).jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

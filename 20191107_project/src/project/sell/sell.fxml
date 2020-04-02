@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="736.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.sell.SellController">
+   <children>
+      <AnchorPane prefHeight="736.0" prefWidth="414.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="139.0" layoutY="38.0" text="방을 내놓습니다">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="107.0" text="방정보" />
+            <Label layoutX="24.0" layoutY="145.0" text="방상세정보" />
+            <Label layoutX="23.0" layoutY="216.0" text="금액" />
+            <Label layoutX="21.0" layoutY="316.0" text="위치상세정보" />
+            <Label layoutX="30.0" layoutY="380.0" text="내방사진" />
+            <ChoiceBox fx:id="boxAptKind" layoutX="98.0" layoutY="103.0" prefHeight="23.0" prefWidth="125.0" />
+            <TextField fx:id="txtPrice" layoutX="99.0" layoutY="212.0" prefWidth="125.0" />
+            <TextField fx:id="txtAddr1" layoutX="101.0" layoutY="313.0" prefWidth="280.0" />
+            <Button fx:id="btnBefore" layoutX="26.0" layoutY="36.0" mnemonicParsing="false" text="이전" />
+            <Button fx:id="btnAdd" layoutX="107.0" layoutY="374.0" mnemonicParsing="false" text="사진추가" />
+            <Label layoutX="157.0" layoutY="145.0" text="㎡" />
+            <TextField fx:id="txtWidth" layoutX="99.0" layoutY="141.0" prefHeight="23.0" prefWidth="54.0" />
+            <Label layoutX="23.0" layoutY="179.0" text="층수" />
+            <TextField fx:id="txtFloor" layoutX="99.0" layoutY="175.0" prefWidth="30.0" />
+            <Label layoutX="142.0" layoutY="179.0" text="층" />
+            <Label layoutX="181.0" layoutY="145.0" text="방" />
+            <Label layoutX="265.0" layoutY="145.0" text="욕실" />
+            <Label layoutX="178.0" layoutY="179.0" text="복도식 / 계단식" />
+            <ChoiceBox fx:id="boxKind2" layoutX="278.0" layoutY="175.0" prefHeight="23.0" prefWidth="86.0" />
+            <TextField fx:id="txtRoom" layoutX="203.0" layoutY="141.0" prefWidth="30.0" />
+            <TextField fx:id="txtBath" layoutX="300.0" layoutY="141.0" prefWidth="30.0" />
+            <Label layoutX="236.0" layoutY="145.0" text="개" />
+            <Label layoutX="333.0" layoutY="145.0" text="개" />
+            <Label layoutX="23.0" layoutY="249.0" text="옵션" />
+            <TextField fx:id="txtOption1" layoutX="100.0" layoutY="245.0" prefHeight="23.0" prefWidth="48.0" />
+            <Label layoutX="166.0" layoutY="249.0" text="옵션" />
+            <TextField fx:id="txtOption2" layoutX="208.0" layoutY="245.0" prefHeight="23.0" prefWidth="48.0" />
+            <Label layoutX="21.0" layoutY="283.0" text="추가설명" />
+            <TextField fx:id="txtExplanation" layoutX="101.0" layoutY="279.0" prefHeight="23.0" prefWidth="280.0" />
+            <Button fx:id="btnEnroll" layoutX="332.0" layoutY="36.0" mnemonicParsing="false" text="등록하기" />
+            <HBox fx:id="paneImg1" layoutX="60.0" layoutY="426.0" prefHeight="100.0" prefWidth="139.0" />
+            <HBox fx:id="paneImg2" layoutX="55.0" layoutY="551.0" prefHeight="100.0" prefWidth="139.0" />
+            <Label layoutX="23.0" layoutY="78.0" text="아파트명" />
+            <TextField fx:id="txtName" layoutX="97.0" layoutY="74.0" prefWidth="125.0" />
+            <TextField fx:id="txtFile" layoutX="195.0" layoutY="374.0" visible="false" />
+            <Label layoutX="241.0" layoutY="107.0" text="종류" />
+            <ChoiceBox fx:id="boxKind1" layoutX="278.0" layoutY="103.0" prefHeight="23.0" prefWidth="86.0" />
+         </children>
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+      </AnchorPane>
+   </children>
+</StackPane>

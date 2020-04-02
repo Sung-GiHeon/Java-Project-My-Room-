@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="736.0" prefWidth="414.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="84.0" layoutY="67.0" prefHeight="30.0" prefWidth="250.0" text="어떤 집을 찾고 계세요?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="45.0" layoutY="128.0" prefHeight="40.0" prefWidth="330.0" text="지역을 선택해 주세요" />
+      <Button fx:id="btnApt" layoutX="44.0" layoutY="205.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="150.0" style="-fx-background-color: white;" text="아파트" textFill="#ff0b0b">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="btnVilla" layoutX="220.0" layoutY="205.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="150.0" style="-fx-background-color: white;" text="빌라/투룸" textFill="#f20a0a">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="btnOne" layoutX="43.0" layoutY="432.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="150.0" style="-fx-background-color: white;" text="원룸" textFill="#f80808">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="btnOffice" layoutX="220.0" layoutY="432.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="150.0" style="-fx-background-color: white;" text="오피스텔" textFill="#f80f0f">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
